@@ -29,6 +29,7 @@
 		98C0E64D283597E7005C0F2B /* Rxswift+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E64C283597E7005C0F2B /* Rxswift+Extension.swift */; };
 		98C0E65028359825005C0F2B /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E64F28359825005C0F2B /* Activity.swift */; };
 		98C0E65328359A8B005C0F2B /* PhotoShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E65228359A8B005C0F2B /* PhotoShowViewController.swift */; };
+		98C0E6552835B734005C0F2B /* AdBannerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E6542835B734005C0F2B /* AdBannerTVCell.swift */; };
 		D417FF5F61076488D8557C75 /* Pods_PhotosChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03E3F5C11B97743A3567179 /* Pods_PhotosChallengeTests.framework */; };
 		EB3D487AA30BFF58ADDEDE65 /* Pods_PhotosChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048FC4AB00D86F8F739BF146 /* Pods_PhotosChallenge.framework */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		98C0E64C283597E7005C0F2B /* Rxswift+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rxswift+Extension.swift"; sourceTree = "<group>"; };
 		98C0E64F28359825005C0F2B /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		98C0E65228359A8B005C0F2B /* PhotoShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoShowViewController.swift; sourceTree = "<group>"; };
+		98C0E6542835B734005C0F2B /* AdBannerTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerTVCell.swift; sourceTree = "<group>"; };
 		9AC3CD9DD145D474D54B2155 /* Pods-PhotosChallenge-PhotosChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotosChallenge-PhotosChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-PhotosChallenge-PhotosChallengeUITests/Pods-PhotosChallenge-PhotosChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A602B442C03AE825FAC930C6 /* Pods_PhotosChallenge_PhotosChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotosChallenge_PhotosChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03E3F5C11B97743A3567179 /* Pods_PhotosChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotosChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,19 +225,20 @@
 		98C0E63928357752005C0F2B /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				98C0E642283578DD005C0F2B /* Cell */,
+				98C0E642283578DD005C0F2B /* Cells */,
 				98C0E60628356E47005C0F2B /* PhotosViewController.swift */,
 				98C0E64528357926005C0F2B /* PhotosViewModel.swift */,
 			);
 			path = Photos;
 			sourceTree = "<group>";
 		};
-		98C0E642283578DD005C0F2B /* Cell */ = {
+		98C0E642283578DD005C0F2B /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				98C0E643283578EF005C0F2B /* PhotosTVCell.swift */,
+				98C0E6542835B734005C0F2B /* AdBannerTVCell.swift */,
 			);
-			path = Cell;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		98C0E647283589A6005C0F2B /* Presentations */ = {
@@ -518,6 +521,7 @@
 				98C0E60D28356E47005C0F2B /* PhotosChallenge.xcdatamodeld in Sources */,
 				98C0E65028359825005C0F2B /* Activity.swift in Sources */,
 				98C0E60728356E47005C0F2B /* PhotosViewController.swift in Sources */,
+				98C0E6552835B734005C0F2B /* AdBannerTVCell.swift in Sources */,
 				98C0E649283589CB005C0F2B /* PhotoModelPresentation.swift in Sources */,
 				98C0E64128357827005C0F2B /* ApiServices.swift in Sources */,
 				98C0E60328356E47005C0F2B /* AppDelegate.swift in Sources */,

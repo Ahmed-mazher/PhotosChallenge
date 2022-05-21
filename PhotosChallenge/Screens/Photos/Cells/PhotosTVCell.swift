@@ -22,20 +22,20 @@ class PhotosTVCell: UITableViewCell {
         return iv
     }()
     
-    var imageTitle: UILabel = {
-        let nwttl = UILabel()
-        nwttl.textColor = .black
-        nwttl.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
-        nwttl.numberOfLines = 3
-        return nwttl
+    var imageTitleLabel: UILabel = {
+        let label = UILabel()
+        label.textColor = .black
+        label.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
+        label.numberOfLines = 3
+        return label
     }()
     
-    var imageOwner: UILabel = {
-        let nwttl = UILabel()
-        nwttl.textColor = .systemGray
-        nwttl.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
-        nwttl.textAlignment = .right
-        return nwttl
+    var imageOwnerLabel: UILabel = {
+        let label = UILabel()
+        label.textColor = .systemGray
+        label.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
+        label.textAlignment = .right
+        return label
     }()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -54,7 +54,7 @@ class PhotosTVCell: UITableViewCell {
     private func configure(){
         
         let labelsStackView = UIStackView(arrangedSubviews: [
-            imageTitle , imageOwner
+            imageTitleLabel , imageOwnerLabel
         ])
         labelsStackView.axis = .vertical
         labelsStackView.spacing = 10
