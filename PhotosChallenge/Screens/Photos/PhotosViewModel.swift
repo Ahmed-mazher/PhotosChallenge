@@ -56,8 +56,8 @@ class PhotosViewModel {
                     return Observable.empty()
                 }else {
                     self.page = self.page + 1
-                    let cryptoNews = self.newsService.fetchImages(page: self.page).map({  items in items })
-                    let mappedCryptoNews = cryptoNews.map({ items in items.map({ item  in PhotoModelPresentation(photo: item) }) })
+                    let flikrImages = self.newsService.fetchImages(page: self.page).map({  items in items })
+                    let mappedCryptoNews = flikrImages.map({ items in items.map({ item  in PhotoModelPresentation(photo: item) }) })
                     return mappedCryptoNews
                         .trackActivity(self.loadingIndicator)
                 }

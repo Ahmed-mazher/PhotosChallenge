@@ -77,7 +77,7 @@ class PhotosViewController: UIViewController, UIScrollViewDelegate {
                 guard let self = self else { return }
                 let index = (self.imagesTableView.indexPathForSelectedRow?.row ?? 0) + 1
                 if index % 6 == 0 {
-                    
+                    //action for ad banner image
                 }else{
                     if let showVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PhotoShowViewController") as? PhotoShowViewController {
                         showVC.setupUI(item: item)
