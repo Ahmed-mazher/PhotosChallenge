@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3069F0B2A2A626BF81D2CA53 /* Pods_PhotosChallenge_PhotosChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A602B442C03AE825FAC930C6 /* Pods_PhotosChallenge_PhotosChallengeUITests.framework */; };
+		98A28C852839005300F9BDD1 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A28C842839005300F9BDD1 /* ApiClientTests.swift */; };
 		98C0E60328356E47005C0F2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E60228356E47005C0F2B /* AppDelegate.swift */; };
 		98C0E60528356E47005C0F2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E60428356E47005C0F2B /* SceneDelegate.swift */; };
 		98C0E60728356E47005C0F2B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E60628356E47005C0F2B /* PhotosViewController.swift */; };
@@ -15,13 +16,12 @@
 		98C0E60D28356E47005C0F2B /* PhotosChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E60B28356E47005C0F2B /* PhotosChallenge.xcdatamodeld */; };
 		98C0E60F28356E49005C0F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C0E60E28356E49005C0F2B /* Assets.xcassets */; };
 		98C0E61228356E49005C0F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C0E61028356E49005C0F2B /* LaunchScreen.storyboard */; };
-		98C0E61D28356E4A005C0F2B /* PhotosChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E61C28356E4A005C0F2B /* PhotosChallengeTests.swift */; };
 		98C0E62728356E4A005C0F2B /* PhotosChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E62628356E4A005C0F2B /* PhotosChallengeUITests.swift */; };
 		98C0E62928356E4A005C0F2B /* PhotosChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E62828356E4A005C0F2B /* PhotosChallengeUITestsLaunchTests.swift */; };
 		98C0E63D283577DC005C0F2B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E63A283577DC005C0F2B /* Photo.swift */; };
 		98C0E63E283577DC005C0F2B /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E63B283577DC005C0F2B /* PhotosModel.swift */; };
 		98C0E63F283577DC005C0F2B /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E63C283577DC005C0F2B /* Photos.swift */; };
-		98C0E64128357827005C0F2B /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E64028357827005C0F2B /* ApiServices.swift */; };
+		98C0E64128357827005C0F2B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E64028357827005C0F2B /* ApiService.swift */; };
 		98C0E644283578EF005C0F2B /* PhotosTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E643283578EF005C0F2B /* PhotosTVCell.swift */; };
 		98C0E64628357926005C0F2B /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E64528357926005C0F2B /* PhotosViewModel.swift */; };
 		98C0E649283589CB005C0F2B /* PhotoModelPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0E648283589CB005C0F2B /* PhotoModelPresentation.swift */; };
@@ -57,6 +57,7 @@
 		3331CE3DECF77E464D82B49B /* Pods-PhotosChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotosChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-PhotosChallengeTests/Pods-PhotosChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D6358C50520058020926B48 /* Pods-PhotosChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotosChallenge.release.xcconfig"; path = "Target Support Files/Pods-PhotosChallenge/Pods-PhotosChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		7DEDB1853D8E74F3BDDC4564 /* Pods-PhotosChallenge-PhotosChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotosChallenge-PhotosChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhotosChallenge-PhotosChallengeUITests/Pods-PhotosChallenge-PhotosChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98A28C842839005300F9BDD1 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
 		98C0E5FF28356E47005C0F2B /* PhotosChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C0E60228356E47005C0F2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C0E60428356E47005C0F2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,14 +68,13 @@
 		98C0E61128356E49005C0F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98C0E61328356E49005C0F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98C0E61828356E49005C0F2B /* PhotosChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98C0E61C28356E4A005C0F2B /* PhotosChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosChallengeTests.swift; sourceTree = "<group>"; };
 		98C0E62228356E4A005C0F2B /* PhotosChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C0E62628356E4A005C0F2B /* PhotosChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosChallengeUITests.swift; sourceTree = "<group>"; };
 		98C0E62828356E4A005C0F2B /* PhotosChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		98C0E63A283577DC005C0F2B /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		98C0E63B283577DC005C0F2B /* PhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
 		98C0E63C283577DC005C0F2B /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
-		98C0E64028357827005C0F2B /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		98C0E64028357827005C0F2B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		98C0E643283578EF005C0F2B /* PhotosTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTVCell.swift; sourceTree = "<group>"; };
 		98C0E64528357926005C0F2B /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
 		98C0E648283589CB005C0F2B /* PhotoModelPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelPresentation.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		98C0E61B28356E4A005C0F2B /* PhotosChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				98C0E61C28356E4A005C0F2B /* PhotosChallengeTests.swift */,
+				98A28C842839005300F9BDD1 /* ApiClientTests.swift */,
 			);
 			path = PhotosChallengeTests;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 		98C0E635283576ED005C0F2B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				98C0E64028357827005C0F2B /* ApiServices.swift */,
+				98C0E64028357827005C0F2B /* ApiService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -354,6 +354,7 @@
 					};
 					98C0E61728356E49005C0F2B = {
 						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
 						TestTargetID = 98C0E5FE28356E47005C0F2B;
 					};
 					98C0E62128356E4A005C0F2B = {
@@ -523,7 +524,7 @@
 				98C0E60728356E47005C0F2B /* PhotosViewController.swift in Sources */,
 				98C0E6552835B734005C0F2B /* AdBannerTVCell.swift in Sources */,
 				98C0E649283589CB005C0F2B /* PhotoModelPresentation.swift in Sources */,
-				98C0E64128357827005C0F2B /* ApiServices.swift in Sources */,
+				98C0E64128357827005C0F2B /* ApiService.swift in Sources */,
 				98C0E60328356E47005C0F2B /* AppDelegate.swift in Sources */,
 				98C0E60528356E47005C0F2B /* SceneDelegate.swift in Sources */,
 				98C0E644283578EF005C0F2B /* PhotosTVCell.swift in Sources */,
@@ -540,7 +541,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C0E61D28356E4A005C0F2B /* PhotosChallengeTests.swift in Sources */,
+				98A28C852839005300F9BDD1 /* ApiClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,14 +767,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.frontTech.PhotosChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotosChallenge.app/PhotosChallenge";
@@ -786,10 +794,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.frontTech.PhotosChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

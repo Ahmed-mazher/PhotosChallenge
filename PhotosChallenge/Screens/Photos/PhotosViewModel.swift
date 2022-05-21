@@ -24,6 +24,7 @@ class PhotosViewModel {
     private let disposeBag = DisposeBag()
             
     init(newsService: PhotosServiceProtocol = ApiService()){
+        
         loadingIndicator = ActivityIndicator()
         loading = loadingIndicator.asObservable()
         loadPageTrigger = PublishSubject()
